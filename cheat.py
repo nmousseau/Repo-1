@@ -89,7 +89,7 @@ print(pageBreak)
 
 string = "catch my catatonic cat."
 subString = "cat"
-stringIndex = string.find(substring)
+stringIndex = string.find(subString)
 print(stringIndex)
 if (subString in string):
     print("yes")
@@ -121,6 +121,16 @@ while count < len(listOfPairs):
     fname, town = listOfPairs[count].split(": ")
     print("first name is " + fname + "\n town is: " + town)
     count += 1
-    
 
 
+#loop example
+
+
+mystring = "acbcdce"
+count_c = 0
+for letter in mystring:
+    if letter == 'c':
+        count_c += 1
+        #print("hello" + str(count_c))
+
+print(count_c)
