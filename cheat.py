@@ -134,3 +134,7 @@ for letter in mystring:
         #print("hello" + str(count_c))
 
 print(count_c)
+
+favorite_colors = {'Graham': 'blue', 'Eric': 'green', 'Terry': 'orange'}
+color = favorite_colors['Graham']
+print(color)
